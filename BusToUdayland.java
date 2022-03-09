@@ -14,9 +14,6 @@ public class BusToUdayland {
         int t = reader.nextInt();
         for (int i = 0; i < t; i++) {
                 st=reader.next();
-                if((st.charAt(0)=='O'&&st.charAt(1)=='O')||(st.charAt(3)=='O'&&st.charAt(4)=='O')){
-                    
-                }
                 if(st.charAt(0)=='O'&&st.charAt(1)=='O'&&count==1){
                     System.out.println("++"+st.charAt(2)+st.charAt(3)+st.charAt(4));
                     count--;
